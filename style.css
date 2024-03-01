@@ -1,1 +1,129 @@
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.middle {
+    display: flex;
+}
+
+.middle-content {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.middle-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.middle-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.middle-content .shop {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.middle-content .shop:hover {
+    background-color: #222;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.benefits {
+    padding: 20px;
+}
+
+.benefits h2 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.benefits li:before {
+    content: "•";
+    margin-right: 10px;
+    color: #333;
+}
+

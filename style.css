@@ -1,4 +1,4 @@
-
+/* Tasnuba Badrul, ID:2120368 */
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -131,3 +131,6 @@ footer {
     color: #333;
 }
 
+.contact img{
+    align-content: center;
+    }
